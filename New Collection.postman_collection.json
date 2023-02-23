@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "3b5186d0-e87d-4e6a-af9f-0ee43f719978",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=IM&key=e6bb97472cee5998ae55b47fedc21d3c&token=ATTA59c63922314206ee900e50378f3bec7c579ec98aa0c29ff90360071378783ad83001015C",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "IM"
+						},
+						{
+							"key": "key",
+							"value": "e6bb97472cee5998ae55b47fedc21d3c"
+						},
+						{
+							"key": "token",
+							"value": "ATTA59c63922314206ee900e50378f3bec7c579ec98aa0c29ff90360071378783ad83001015C"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
